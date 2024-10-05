@@ -1,0 +1,84 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 0;
+    background: #fff;
+    padding-bottom: 30px;
+    width: 1024px;
+  }
+  
+  .login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  .login-text {
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+    position: sticky;
+    margin-top: 0;
+  }
+  
+  .login-underline {
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 9px;
+  }
+  
+  .login-inputs {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .login-input {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between; /* Ensures equal space between icon and input */
+    width: 480px;
+    margin: auto;
+    background: #eaeaea;
+    border-radius: 6px;
+  }
+  
+  .login-input input {
+    height: 50px;
+    width: 400px;
+    font-size: 19px;
+    background: transparent;
+    color: #797979;
+    border: none;
+    outline: none;
+    padding-left: 10px; /* Space between icon and text */
+    margin-top: 0;
+  }
+  
+  .login-submit-container {
+    display: flex;
+    justify-content: center; /* Center the button */
+    margin-top: 60px;
+  }
+  
+  .login-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    width: 220px;
+    font-size: 19px;
+    color: #fff;
+    border-radius: 50px;
+    background: #4c00b4;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
